@@ -1,4 +1,4 @@
-i use github for small projects
+I use github for small projects
 <!---
 AroCodes/AroCodes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
