@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "login": "AroCodes",
+  "seed": "#BAA998",
+  "seedFromAvatar": false,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "stack",
+    "about",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [
+    "about",
+    "streak",
+    "stats"
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "AroCodes",
+    "subtitle": "Software Engineer & Web Developer",
+    "typing": true,
+    "avatarShape": "gem",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Milky Way"
+      },
+      {
+        "icon": "bolt",
+        "label": "Available for Work"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "code",
+        "label": "Full-Stack Developer"
+      },
+      {
+        "icon": "lock",
+        "label": "Security Focused Apps"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "JavaScript"
+          },
+          {
+            "icon": "brand:rust",
+            "label": "Rust"
+          },
+          {
+            "icon": "brand:php",
+            "label": "PHP"
+          }
+        ]
+      },
+      {
+        "title": "OTHER",
+        "items": [
+          {
+            "icon": "brand:react",
+            "label": "React.js"
+          },
+          {
+            "icon": "brand:nextdotjs",
+            "label": "Next.js"
+          },
+          {
+            "icon": "brand:nodedotjs",
+            "label": "Node.js"
+          },
+          {
+            "icon": "brand:nestjs",
+            "label": "Nest.js"
+          },
+          {
+            "icon": "brand:express",
+            "label": "Express.js"
+          },
+          {
+            "icon": "brand:electron",
+            "label": "Electron.js"
+          },
+          {
+            "icon": "brand:tauri",
+            "label": "Tauri"
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "items": [
+          {
+            "icon": "brand:mysql",
+            "label": "MySQL"
+          },
+          {
+            "icon": "brand:postgresql",
+            "label": "PostgreSQL"
+          },
+          {
+            "icon": "brand:mongodb",
+            "label": "MongoDB"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "pixel-garden",
+      "tiny-weather",
+      "echo-bot",
+      "dotfiles"
+    ],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/arocodes_dev"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/users/1060119065835880519"
+      },
+      {
+        "icon": "brand:x",
+        "url": "https://x.com/arocodes_dev"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "https://arocodes.vercel,app",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "",
+        "style": "tonal"
+      }
+    ]
+  }
+}
