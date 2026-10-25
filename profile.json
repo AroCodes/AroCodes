@@ -1,7 +1,7 @@
 {
   "version": 1,
   "login": "AroCodes",
-  "seed": "#BAA998",
+  "seed": "#7A8EBC",
   "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
@@ -9,8 +9,8 @@
   "order": [
     "hero",
     "socials",
-    "stack",
     "about",
+    "stack",
     "projects",
     "stats",
     "streak",
@@ -19,23 +19,24 @@
   ],
   "hidden": [
     "about",
-    "streak",
-    "stats"
+    "stats",
+    "projects",
+    "streak"
   ],
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "AroCodes",
-    "subtitle": "Software Engineer & Web Developer",
+    "name": "𝙰𝚛𝚘𝙲𝚘𝚍𝚎𝚜",
+    "subtitle": "// Software Engineer & Web Developer",
     "typing": true,
-    "avatarShape": "gem",
+    "avatarShape": "clover",
     "chips": [
       {
         "icon": "location_on",
         "label": "Milky Way"
       },
       {
-        "icon": "bolt",
-        "label": "Available for Work"
+        "icon": "code",
+        "label": "Full-Stack Developer"
       }
     ]
   },
@@ -43,12 +44,16 @@
     "title": "About me",
     "items": [
       {
-        "icon": "code",
-        "label": "Full-Stack Developer"
+        "icon": "person",
+        "label": "Developer and designer"
       },
       {
-        "icon": "lock",
-        "label": "Security Focused Apps"
+        "icon": "code",
+        "label": "Mostly frontend"
+      },
+      {
+        "icon": "palette",
+        "label": "Into Material Design"
       }
     ]
   },
@@ -59,6 +64,10 @@
         "title": "Main",
         "items": [
           {
+            "icon": "brand:rust",
+            "label": "Rust"
+          },
+          {
             "icon": "brand:typescript",
             "label": "TypeScript"
           },
@@ -67,17 +76,13 @@
             "label": "JavaScript"
           },
           {
-            "icon": "brand:rust",
-            "label": "Rust"
-          },
-          {
             "icon": "brand:php",
             "label": "PHP"
           }
         ]
       },
       {
-        "title": "OTHER",
+        "title": "Other",
         "items": [
           {
             "icon": "brand:react",
@@ -85,7 +90,7 @@
           },
           {
             "icon": "brand:nextdotjs",
-            "label": "Next.js"
+            "label": "Next,js"
           },
           {
             "icon": "brand:nodedotjs",
@@ -106,19 +111,18 @@
           {
             "icon": "brand:tauri",
             "label": "Tauri"
-          }
-        ]
-      },
-      {
-        "title": "Databases",
-        "items": [
+          },
+          {
+            "icon": "brand:postgresql",
+            "label": "PostgreSQL"
+          },
           {
             "icon": "brand:mysql",
             "label": "MySQL"
           },
           {
-            "icon": "brand:postgresql",
-            "label": "PostgreSQL"
+            "icon": "brand:sqlite",
+            "label": "SQLite"
           },
           {
             "icon": "brand:mongodb",
@@ -129,14 +133,16 @@
     ]
   },
   "projects": {
-    "source": "manual",
+    "source": "pinned",
     "repos": [
-      "pixel-garden",
-      "tiny-weather",
-      "echo-bot",
-      "dotfiles"
+      "app",
+      "AroCodes"
     ],
-    "overrides": {},
+    "overrides": {
+      "app": {
+        "shape": "clover"
+      }
+    },
     "empty": "No description yet.",
     "fork": "Fork"
   },
@@ -181,7 +187,7 @@
       {
         "icon": "language",
         "label": "My website",
-        "url": "https://arocodes.vercel,app",
+        "url": "https://arocodes.vercel.app",
         "style": "filled"
       },
       {
@@ -190,6 +196,7 @@
         "url": "",
         "style": "tonal"
       }
-    ]
+    ],
+    "card": false
   }
 }
